@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "args (2)", // 你截图里的配置名称
+            "type": "python",
+            "request": "launch",
+            "program": "${file}", // 当前打开的脚本
+            "console": "integratedTerminal",
+            // 下面是命令行参数，一一拆分
+            "args": [
+                "--aaa",
+                "20",
+                "-b",
+                "15"
+            ]
+        }
+    ]
+}
